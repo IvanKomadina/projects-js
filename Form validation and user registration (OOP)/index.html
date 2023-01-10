@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OOP Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<form>
+		<h1>User registration</h1>
+		<div>
+			<label for="firstname_lastname">First name and last name: *</label>
+			<input id="firstname_lastname" type="text" name="firstname_lastname" placeholder="John Doe">
+		</div>
+		<div>
+			<label for="username">Username: *</label>
+			<input id="username" type="text" name="username" placeholder="john.doe1">
+		</div>
+		<div>
+			<label for="email">Email address: *</label>
+			<input id="email" type="text" name="email" placeholder="john.doe@mail.com">
+		</div>
+		<div>
+			<label for="postal_code">Postal code: *</label>
+			<input id="postal_code" type="text" name="postal_code" placeholder="10000">
+		</div>
+		<div>
+			<label for="phone">Phone Number:</label>
+			<input id="phone" type="text" name="phone" placeholder="021 123 456">
+		</div>
+		<div>
+			<label for="password">Password: *</label>
+			<input id="password" type="text" name="password" placeholder="*******">
+		</div>
+		<div>
+			<label for="confirm_password">Confirm_password: *</label>
+			<input id="confirm_password" type="text" name="confirm_password" placeholder="*******">
+		</div>
+		<div>
+			<button>Register</button>
+		</div>
+	</form>
+	
+	<script type="text/javascript" src="validator.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

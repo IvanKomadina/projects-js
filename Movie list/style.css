@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url('background.jpg');
+    text-align: center;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 130vh;
+}
+
+h1 {
+    padding: 30px;
+    margin: 40px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 5px 40px 10px #0ff;
+}
+
+.container {
+    display: flex;
+    padding: 30px;
+}
+
+.single-item {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(118, 181, 192);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    box-shadow: 10px 10px 30px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.desc {
+    text-align: left;
+}
+
+.fa-star{
+    padding-bottom: 40px;
+    color: gold;
+}
+
+.rating {
+    color: black;
+}
+
+.image {
+    width: 350px;
+}
+
+.price {
+    position: absolute; 
+    left: 10px;
+    bottom: 10px;
+}
+
+.watch-button {
+    position: absolute; 
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(56, 55, 55);
+}
+
+.active {
+    background-color: black;
+}
+
+.active:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.checked {
+    background-color: rgb(114, 112, 112);
+}
+
+.clearBtn {
+    padding: 10px 20px 10px 20px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.clearBtn:hover {
+    cursor: pointer;
+    background-color: rgb(179, 176, 176);
+}

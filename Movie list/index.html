@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background-overlay">
+    <h1>Movies</h1>
+        <div class="container">
+            <div class="single-item">
+                <img class="image" src="Lord of the rings.jpg">
+                <br>
+                <span class="year">2001</span>
+                <br><br>
+                <p class="name">The Lord of the Rings: The Fellowship of the Ring</p>
+                <br>
+                <p class="desc">A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</p>
+                <br>
+                <span class="fa fa-star"><span class="rating"> 8.8/10</span></span>
+                <span class="price">Price: $10</span>
+                <button onclick="addToWatchlist(this)" class="watch-button active">Watch</button>
+            </div>
+            <div class="single-item">
+                <img class="image" src="dark knight.jpg">
+                <br>
+                <span class="year">2008</span>
+                <br><br>
+                <p class="name">The Dark Knight</p>
+                <br>
+                <p class="desc">When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>
+                <br>
+                <span class="fa fa-star"><span class="rating"> 9.0/10</span></span>
+                <span class="price">Price: $30</span>
+                <button onclick="addToWatchlist(this)" class="watch-button active">Watch</button>
+            </div>
+            <div class="single-item">
+                <img class="image" src="endgame.jpg">
+                <br>
+                <span class="year">2019</span>
+                <br><br>
+                <p class="name">Avengers: Endgame</p>
+                <br>
+                <p class="desc">After the devastating events of Avengers: Infity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+                <br>
+                <span class="fa fa-star"><span class="rating"> 8.4/10</span></span>
+                <span class="price">Price: $20</span>
+                <button onclick="addToWatchlist(this)" class="watch-button active">Watch</button>
+            </div>
+            <div class="single-item">
+                <img class="image" src="interstellar.jpg">
+                <br>
+                <span class="year">2014</span>
+                <br><br>
+                <p class="name">Interstellar</p>
+                <br>
+                <p class="desc">A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+                <br>
+                <span class="fa fa-star"><span class="rating"> 8.6/10</span></span>
+                <span class="price">Price: $40</span>
+                <button onclick="addToWatchlist(this)" class="watch-button active">Watch</button>
+            </div>
+        </div>
+        <div class="totalPrice"></div>
+        <div class="clearDiv"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

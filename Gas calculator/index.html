@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gas price calculator</title>
+</head>
+<body>
+    <div class="background-overlay">
+    <h2>GAS PRICE CALCULATOR</h2>
+        <div class="container">
+            <div class="input-1">
+                <p>Gas price:</p>
+                <input type="number" id="price" min="0.1">$                
+            </div>
+            <br><br>
+            <div class="input-1">
+                <p>Gas amount:</p>
+                <input type="number" id="litres" min="0.1">L
+                <br><br><br>
+            </div>
+            <button onclick="calculate(); remove()">Calculate</button>
+            <br>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
